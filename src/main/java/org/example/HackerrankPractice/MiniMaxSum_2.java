@@ -18,7 +18,7 @@ public class MiniMaxSum_2 {
     public static void miniMaxSum(List<Integer> arr) {
         // Write your code here
         int nInts = arr.size();
-        List<Long> longs = new ArrayList<Long>(nInts);
+        List<Long> longs = new ArrayList<>(nInts);
         for (Integer integer : arr) {
             longs.add(integer.longValue());
         }
@@ -46,8 +46,8 @@ public class MiniMaxSum_2 {
 
     public static void main(String[] args) {
         //main method
-//      List<Long> arr = new ArrayList<Long>(Arrays. asList(1L, 3L, 5L, 7L, 9L));
-        List<Integer> arr = new ArrayList<Integer>(Arrays. asList(1,3,5,7,9));
+        //List<Long> arr = new ArrayList<Long>(Arrays. asList(1L, 3L, 5L, 7L, 9L));
+        List<Integer> arr = new ArrayList<>(Arrays.asList(1, 3, 5, 7, 9));
 
         MiniMaxSum_2.miniMaxSum(arr);
     }
