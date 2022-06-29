@@ -1,12 +1,10 @@
 package org.example.HackerrankPractice;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class MiniMaxSum_2 {
-
+public class MiniMaxSum2 {
     /**
      * Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
      * Example
@@ -52,16 +50,4 @@ public class MiniMaxSum_2 {
             sum += num;
         System.out.print((sum - arr.get(4)) + " " + (sum - arr.get(0)));
     }
-
-    public static void main(String[] args) {
-        //main method
-        //List<Long> arr = new ArrayList<Long>(Arrays. asList(1L, 3L, 5L, 7L, 9L));
-        //List<Integer> arr = new ArrayList<>(Arrays.asList(1, 3, 5, 7, 9));
-        List<Integer> arr = new ArrayList<>(Arrays.asList(942381765, 627450398, 954173620, 583762094, 236817490));
-        //List<Integer> arr = new ArrayList<>(Arrays.asList(254961783, 604179258, 462517083, 967304281, 860273491));
-
-        MiniMaxSum_2.miniMaxSum_alternateMethod(arr);
-    }
-
-
 }
