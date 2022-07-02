@@ -10,7 +10,8 @@ class BreakingRecords4Test {
 
     @Test
     void breakingRecords() {
-        List<Integer> scores = new ArrayList<>(Arrays.asList(12, 24, 10, 24));
+        //List<Integer> scores = new ArrayList<>(Arrays.asList(12, 24, 10, 24));
+        List<Integer> scores = new ArrayList<>(Arrays.asList(10, 5, 20, 20, 4, 5, 2, 25, 1));
         List<Integer> results = BreakingRecords4.breakingRecords(scores);
         System.out.println(results);
     }
