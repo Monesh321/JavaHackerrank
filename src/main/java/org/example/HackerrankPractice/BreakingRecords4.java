@@ -1,7 +1,6 @@
 package org.example.HackerrankPractice;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class BreakingRecords4 {
